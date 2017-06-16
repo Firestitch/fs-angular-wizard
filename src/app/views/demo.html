@@ -1,1 +1,13 @@
-<fs-wizard></fs-wizard>
+<fs-wizard fs-selected="selected">
+	<fs-wizard-step fs-name="start">Start</fs-wizard-step>
+	<fs-wizard-step fs-name="upload">Upload</fs-wizard-step>
+	<fs-wizard-step fs-name="uhmmm">Uhmmmm</fs-wizard-step>
+	<fs-wizard-step fs-name="results">Results</fs-wizard-step>
+</fs-wizard>
+
+
+<p>Selected: {{selected}}</p>
+<md-button class="md-raised" ng-click="select('start')">Select Start</md-button>
+<md-button class="md-raised" ng-click="select('upload')">Select Upload</md-button>
+<md-button class="md-raised" ng-click="select('uhmmm')">Select Uhmmm</md-button>
+<md-button class="md-raised" ng-click="select('results')">Select Results</md-button>

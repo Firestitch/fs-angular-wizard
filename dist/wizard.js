@@ -1,3 +1,4 @@
+
 (function () {
     'use strict';
 
@@ -39,3 +40,13 @@
         };
     });
 })();
+
+
+angular.module('fs-angular-wizard').run(['$templateCache', function($templateCache) {
+  'use strict';
+
+  $templateCache.put('views/directives/wizard.html',
+    ""
+  );
+
+}]);

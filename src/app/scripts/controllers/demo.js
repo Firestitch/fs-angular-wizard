@@ -6,9 +6,9 @@
 
 
     $scope.text = '';
-    
-    $scope.submit = function() {
-        alert('submit');
+
+    $scope.select = function(name) {
+        $scope.selected = name;
     }
 });
 

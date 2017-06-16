@@ -8,6 +8,9 @@
     "authors": [
         "Firestitch Inc."
     ],
+    "dependencies": {
+        "fs-angular-theme": "^1.0.0"
+    },
     "license": "MIT",
     "ignore": [
         "src",
