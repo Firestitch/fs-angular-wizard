@@ -1,0 +1,17 @@
+{
+    "name": "fs-angular-wizard",
+    "description": "",
+    "main": [
+        "dist/wizard.js",
+        "dist/wizard.css"
+    ],
+    "authors": [
+        "Firestitch Inc."
+    ],
+    "license": "MIT",
+    "ignore": [
+        "src",
+        ".gitignore"
+    ],
+    "private": false
+}
